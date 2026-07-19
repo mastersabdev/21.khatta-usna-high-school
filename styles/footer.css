@@ -1,0 +1,40 @@
+/* Footer — primary background */
+.footer-gradient {
+  background: linear-gradient(135deg, #1b75bb 0%, #165e96 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-glass {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+
+.footer-link {
+  color: rgba(255, 255, 255, 0.9);
+  transition: color 0.2s;
+}
+
+.footer-link:hover {
+  color: #fbbf24;
+}
+
+.footer-title {
+  color: #ffffff;
+  letter-spacing: 0.03em;
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-logo {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.15);
+  border: 3px solid #fbbf24;
+}
+
+.footer-copyright {
+  background: rgba(0, 0, 0, 0.12);
+  color: rgba(255, 255, 255, 0.85);
+}

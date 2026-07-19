@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  /* color */
+  --color-primary: #1b75bb;
+
+  --color-primary-50: #f0f7fc;
+  --color-primary-100: #dceef8;
+  --color-primary-200: #b9ddf1;
+  --color-primary-300: #7fc0e3;
+  --color-primary-500: #1b75bb;
+  --color-primary-600: #165e96;
+  --color-primary-700: #114771;
+  --color-primary-800: #0c304c;
+  --color-primary-900: #061826;
+
+  --color-secondary: #fbbf24;
+
+  /* background */
+  --color-background: #f8fafc;
+  --color-background-secondary: #f1f5f9;
+
+  /* Screens */
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-2xl: 1320px;
+
+  /* Animation */
+  --animate-marquee: marquee 25s linear infinite;
+  --animate-shimmer: shimmer 2s infinite;
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @keyframes shimmer {
+    0% {
+      transform: translateX(-100%) skewX(-12deg);
+    }
+    100% {
+      transform: translateX(200%) skewX(-12deg);
+    }
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+@utility section-title {
+  @apply text-xl md:text-2xl font-extrabold tracking-tight bg-gradient-to-r from-primary-600 via-primary-500 to-primary-700 bg-clip-text text-transparent;
+}
+
+@utility page-card {
+  @apply rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm;
+}
+
+@utility container {
+  @apply mx-auto max-md:max-w-[90%];
+}
+
+@utility debug {
+  @apply border border-red-500;
+}
+
+@utility btn {
+  @apply px-2 hover:opacity-90 duration-300 active:scale-105 transition;
+}

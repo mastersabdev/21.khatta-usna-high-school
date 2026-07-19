@@ -1,0 +1,54 @@
+/* Header — primary background */
+.header-glass {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+
+.header-gradient {
+  background: linear-gradient(135deg, #1b75bb 0%, #165e96 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.header-link {
+  color: rgba(255, 255, 255, 0.92);
+  transition: all 0.3s ease;
+}
+
+.header-link:hover {
+  color: #fbbf24;
+  transform: translateY(-1px);
+}
+
+.header-title {
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.header-contact {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.header-logo {
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.15);
+  border: 3px solid #fbbf24;
+  transition: transform 0.3s ease;
+}
+
+.header-logo:hover {
+  transform: scale(1.05);
+}
+
+.header-news {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 0.75rem;
+}
+
+.text-shadow {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
