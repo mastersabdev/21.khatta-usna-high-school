@@ -30,14 +30,14 @@ export const navItems = [
       { label: "ব্যবস্থাপনা কমিটি", path: "/academic/committee" },
     ],
   },
-  {
-    label: "ফলাফল",
-    path: "#",
-    children: [
-      { label: "একক ফলাফল", path: "/results/single" },
-      { label: "সেকশন ফলাফল", path: "/results/section" },
-    ],
-  },
+  // {
+  //   label: "ফলাফল",
+  //   path: "#",
+  //   children: [
+  //     { label: "একক ফলাফল", path: "/results/single" },
+  //     { label: "সেকশন ফলাফল", path: "/results/section" },
+  //   ],
+  // },
   {
     label: "গ্যালারি",
     path: "/gallery",
